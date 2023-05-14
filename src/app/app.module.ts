@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { GameDisplayComponent } from './game-display/game-display.component';
 import { KickComponent } from './kick/kick.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +13,8 @@ import { KickComponent } from './kick/kick.component';
     KickComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
