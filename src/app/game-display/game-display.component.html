@@ -8,7 +8,7 @@
     <div class="carousel-inner" >
       <div class="carousel-item" *ngFor="let game of games; index as i; first as isFirst" [ngClass]="{'active': isFirst}">
         <a href="https://sinropa.github.io/{{game.name}}/" target="_blank">
-        <img class="d-block w-100 img-fluid gameimage " src="/assets/img/{{game.name}}.PNG" alt="First slide">
+        <img class="d-block w-100 img-fluid gameimage " src="assets/img/{{game.name}}.PNG" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
             <h5>{{game.name}}</h5>
             <p>{{game.desc}}</p>
